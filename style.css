@@ -1,0 +1,102 @@
+/* reset css*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, 	#103667, #94AAD6);
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: 	#1C1C1C;
+    overflow: hidden;
+    margin: 0 30px;
+    
+}
+
+
+.card__img{
+    
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 auto;
+    transform: translateY(25px);
+    border-radius: 50%;
+    border: 2px solid #FF4040; 
+    cursor: pointer;
+    transition-delay: 0.1s;
+    
+}
+
+.card__img:hover{
+    width: 350px;
+    height: 449px;
+    border-radius: 10px;
+    border: none;
+    transform: unset;
+}
+
+.card__name {
+    color: white;
+    margin-top: 20px;
+   padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.card__bio{
+    color: #FF4040;
+    font-size: 18px;
+    font-style: italic;
+    
+    padding-top: 5px;
+    text-align: center;
+}
+.card__icon a {
+   
+    color: white;
+    margin: 25px 20px 40px;
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+.card__button{
+    justify-content: center;
+    transform: translateY(-20px);
+}
+
+.card__button button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1C1C1C ;
+    border: 1px solid #FF4040;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card__icon a:hover{
+    color: #FF4040;
+}
+.card__button button:hover{
+    background-color: #FF4040;
+}
